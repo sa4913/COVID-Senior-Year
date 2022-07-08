@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Emma's New Senior Year</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page" id="page">
+        <div>
+        <h1>Water Balloon Ambush</h1>
+        <!-- clear instructions -->
+        <p>continuously <b>press 'S' and 'P'</b> one after another to play the video</p>
+        <!-- visual feedback when viewer presses the keys
+        in js, we color the letters in as the keys are pressed -->
+        <h2><span id="S">S</><span id="P">P</></h2>
+        <!-- feedback for the viewer will be displayed in this p tag: -->
+        <p id="status">Don't play video. ⏹</p>
+        <video  src="Videos/PrankballoonCom.m4v" id="keys" loop></video>
+        <button onclick= "window.location='SkipDayIntro.html';" id="Begin">Time to Skip</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
